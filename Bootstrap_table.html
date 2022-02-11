@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>Bootstrap Example</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Default</td>
+                                <td>Defaultson</td>
+                                <td>def@somemail.com</td>
+                            </tr>      
+                            <tr class="success">
+                                <td>Success</td>
+                                <td>Doe</td>
+                                <td>john@example.com</td>
+                                <td>
+                                    <button type="button" class="btn btn-success">Success</button>
+                                </td>
+                            </tr>
+                            <tr class="danger">
+                                <td>Danger</td>
+                                <td>Moe</td>
+                                <td>mary@example.com</td>
+                                <td>
+                                    <button type="button" class="btn btn-danger">Danger</button>
+                                </td>
+                            </tr>
+                            <tr class="info">
+                                <td>Info</td>
+                                <td>Dooley</td>
+                                <td>july@example.com</td>
+                                <td>
+                                    <button type="button" class="btn btn-info">Info</button>
+                                </td>
+                            </tr>
+                            <tr class="warning">
+                                <td>Warning</td>
+                                <td>Refs</td>
+                                <td>bo@example.com</td>
+                                <td>
+                                    <button href="#warning" type="button" class="btn btn-warning">Warning</button>
+                                </td>
+                            </tr>
+                            <tr class="active">
+                                <td>Active</td>
+                                <td>Activeson</td>
+                                <td>act@example.com</td>
+                                <td>
+                                    <button type="button" class="btn btn-active">Active</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="mt5">
+                
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="alert alert-success">
+                        <strong>Success!</strong> Indicates a successful or positive action.
+                    </div>
+                    <div class="alert alert-info">
+                        <strong>Info!</strong> Indicates a neutral informative change or action.
+                    </div>
+
+                    <div class="alert alert-warning" id="warning">
+                        <strong>Warning!</strong> Indicates a warning that might need attention.
+                    </div>
+
+                    <div class="alert alert-danger">
+                        <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
